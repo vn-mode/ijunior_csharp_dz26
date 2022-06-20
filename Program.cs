@@ -9,9 +9,9 @@ namespace vn_mode_csharp_dz26
             string fishString = "Приветствую вас в моём демо коде.";
             string[] arrayWords = fishString.Split(' ');
 
-            foreach (string item in arrayWords)
+            foreach (string word in arrayWords)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(word);
             }
         }
     }
