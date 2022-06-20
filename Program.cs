@@ -7,9 +7,9 @@ namespace vn_mode_csharp_dz26
         static void Main(string[] args)
         {
             string fishString = "Приветствую вас в моём демо коде.";
-            string[] tempFishString = fishString.Split(' ');
+            string[] arrayWords = fishString.Split(' ');
 
-            foreach (var item in tempFishString)
+            foreach (string item in arrayWords)
             {
                 Console.WriteLine(item);
             }
